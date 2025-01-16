@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "baseUrl": ".",         // Base directory for aliases
+    "paths": {
+      "@/*": ["src/*"]      // Alias for the `src` folder
+    }
+  },
+ "include": [
+    "src/**/*"
+  ],
+    "exclude": ["node_modules"] // Exclude `node_modules`
+}
